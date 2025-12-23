@@ -33,6 +33,11 @@
 		E8836FB02EF438B200EB4C8D /* Exceptions for "Healthy" folder in "Healthy" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
+				Classes/Extensions/.gitkeep,
+				Classes/Modules/.gitkeep,
+				Classes/ReusableViews/.gitkeep,
+				Classes/Services/.gitkeep,
+				Classes/Utilities/.gitkeep,
 				Resources/Info.plist,
 			);
 			target = E8836F872EF438B000EB4C8D /* Healthy */;
