@@ -1,0 +1,25 @@
+# SwiftLint Configuration File
+
+excluded:
+  - Resources
+  - Generated
+  - Pods
+  - Carthage
+
+included:
+  - Classes
+
+
+disabled_rules:
+  - line_length
+
+opt_in_rules:
+  - empty_count
+  - force_cast
+  - force_unwrapping
+
+line_length:
+  - 150 
+
+reporter: "xcode"
+
