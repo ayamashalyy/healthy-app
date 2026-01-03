@@ -26,6 +26,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window.makeKeyAndVisible()
 
         self.window = window
+
+        window.rootViewController = OnboardingPageViewController(transitionStyle: .scroll,
+            navigationOrientation: .horizontal,
+            options: nil)
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
